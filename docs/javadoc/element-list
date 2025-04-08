@@ -1,0 +1,10 @@
+com.coveros.training.authentication
+com.coveros.training.authentication.domainobjects
+com.coveros.training.cartesianproduct
+com.coveros.training.expenses
+com.coveros.training.helpers
+com.coveros.training.library
+com.coveros.training.library.domainobjects
+com.coveros.training.mathematics
+com.coveros.training.persistence
+com.coveros.training.tomcat
