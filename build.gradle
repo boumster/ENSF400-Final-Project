@@ -76,7 +76,6 @@ javadoc {
 repositories {
     mavenCentral()
 }
-// Testing comment
 
 // apply our fancy cucumber reporting program, see https://plugins.gradle.org/plugin/com.github.spacialcircumstances.gradle-cucumber-reporting
 apply plugin: "com.github.spacialcircumstances.gradle-cucumber-reporting"
