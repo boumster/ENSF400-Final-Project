@@ -24,7 +24,7 @@ services:
       - JENKINS=true
 
   sonarqube:
-    image: sonarqube:8.9-community # Replace with the desired SonarQube version
+    image: sonarqube:8.9-community
     ports:
       - "9000:9000" # SonarQube UI exposed on port 9000
     environment:
