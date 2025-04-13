@@ -495,7 +495,7 @@ static void isQualityGateGood() {
         throw new GradleException("Response from SonarQube was " + code)
     }
 }
-
+// Comment for demo
 task runBehaveTests(type: Exec) {
     doFirst {
         checkIfAlive()
