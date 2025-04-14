@@ -133,4 +133,9 @@ Open the Jenkins port and to find the authenticator token use the following line
   
    - Now you can find the code reports in SonarQube
 
+## Collaboration
+Our group's collaboration is reflected in the repository through commits on separate branches and the use of pull requests to merge our work. Also research and testing happened in person, we would work together around a computer where the main project was open. One person would run and test the code, while others reviewed code, researched fixes or explored new solutions on their own laptops as we worked through problems.
 
+For example, we had to use ngrok to expose a public URL for our webhook endpoint. Since we were running our server locally, ngrok allowed us to create a tunnel to our machine that could be accessed externally. This was necessary because webhook providers require a publicly accessible URL to send requests to, and ngrok made this possible—even though its public URL changed every time it restarted. None of us had used ngrok before, so we worked together to learn how it functioned and how to integrate it properly into our project.
+
+While one person tested these changes on the main computer, the rest of us would try to replicate or verify the updates in our own GitHub Codespaces. This allowed us to see if the solution worked consistently and helped us quickly catch any issues across different setups. We used this approach when testing webhooks, where the owner of the repository had to add the webhook URLs, logging into Jenkins and SonarQube, running Jenkins builds, and checking whether pull requests would automatically trigger the correct build and test processes. This kind of hands-on, real-time collaboration helped us solve problems efficiently and keep the project moving forward as a team.
